@@ -1,6 +1,6 @@
 aws_region     = "eu-west-1"
-aws_profile    = "aws-bts-royaltylink-nonprod"
+aws_profile    = "aws-profile-nonprod"
 instance_type  = "t2.micro"
-security_group = "sg-0e3d4019a00b82922"
-subnet_id      = ["subnet-0faceaf35313eb92a","subnet-0b1f6846ce2848c42"]
+security_group = "sg-1"
+subnet_id      = ["subnet-1","subnet-2"]
 availability_zone = "eu-west-1a"

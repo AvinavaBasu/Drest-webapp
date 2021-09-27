@@ -5,6 +5,6 @@ data "terraform_remote_state" "drest_elb" {
     bucket  = "drest-s3"
     key     = "tfstate/elb.tfstate"
     region  = "eu-west-1"
-    profile = "aws-bts-royaltylink-nonprod"
+    profile = "aws-profile-nonprod"
   }
 }

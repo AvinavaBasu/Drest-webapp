@@ -32,9 +32,9 @@ module "elb_http" {
     timeout             = 5
   }
 
-  # access_logs = {
-  #   bucket = "drest-access-logs-bucket"
-  # }
+  access_logs = {
+    bucket = "drest-access-logs-bucket"
+  }
 
   // ELB attachments
   number_of_instances = 1

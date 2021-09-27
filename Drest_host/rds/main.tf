@@ -11,7 +11,7 @@ module "db" {
 
   name     = "drestrds"
   username = "user"
-  password = "YourPwdShouldBeLongAndSecure!"
+  password = "YourPwdShouldBeLongAndSecure!" //should be part of SSM store
   port     = "3306"
 
   iam_database_authentication_enabled = false
